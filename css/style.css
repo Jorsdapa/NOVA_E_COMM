@@ -19,7 +19,7 @@
 	--p-font: 1.1rem;
 }
 body{
-	background: var(--bg-color);
+	background: #000 ;
 	color: var(--text-color);
 }
 header{
