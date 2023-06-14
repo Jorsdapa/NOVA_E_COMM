@@ -60,15 +60,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 <body>
-
+	<input type="checkbox" id="check">
 	<!---header--->
 	<header>
 		<!---<a href="#" class="logo"><img src="img/logo.png"></a>---->
               <h2><a href="#" class="logo" style="color: rgb(134, 28, 221);">NOVA E-COMM</a></h2>
-		<div class="bx bx-menu" id="menu-icon"></div>
+		<!---<div class="bx bx-menu" id="menu-icon"></div>---->
+		<label for="check" class="label-btn">
+			<i class="fas fa-bars menu-btn"></i>
+			<i class="fas fa-times close-btn"></i>
+		</label>
 
 		<ul class="navbar">
 			<li><a href="#about">About us</a></li>
@@ -79,6 +84,7 @@
 			<!---<li><a href="#contact">Contact</a></li>
 			<li><a href="./files/CV_JORGE_MONTOYA.pdf" download="jorge_montoya_cv.pdf" target="_blank">CV Download</a></li>---->
 		</ul>
+		
 	</header>
 
 	<!---home--->
@@ -103,24 +109,6 @@
 			<p>
                             We are a company founded under the principles of the new technological era, specialized in the digital transformation of small and large businesses, making a transition from traditional commerce to e-commerce.
                             We always seek to offer the best of services and the best customized strategies according to the needs of the industry and the companies we work with. We have an organizational culture based on respect and tolerance, in addition to a very strong professional ethic, which allows us to always act with ethics and values.</p>
-			<!---<div class="about-gri">
-				<div class="about-in">
-					<h5>1. Problem Solving</h5>
-				</div>
-
-				<div class="about-in">
-					<h5>2. Creative Idea</h5>
-				</div>
-
-				<div class="about-in">
-					<h5>3. Search a lot</h5>
-				</div>
-
-				<div class="about-in">
-					<h5>4. High Quality</h5>
-				</div>
-
-			</div>----->
 			<a href="#contact" class="btn">Contact US</a>
 		</div>
 	</section>
@@ -137,8 +125,6 @@
 				<img src="img/box1.png">
 				<h3>CEO</h3>
 				<p> Expert in financial modeling, management of international companies, management of multinationals, expert in corporate strategy. </p>
-				<!--<p>-Ionic</p>
-				<p>-Flutter</p>---->
 
 			</div>
 
@@ -147,9 +133,6 @@
 				<h3>COO</h3>
 				<p> 
                                    Expert in E-commerce, digital transformation, digital marketing, Amazon FBA, Amazon Private Label, SEO, Amazon Brand Registry, WFS, Mercado Libre, Etsy, Market Research. </p>
-				<!--<p>-Ionic</p>
-				<p>-Flutter</p>---->
-
 			</div>
 
 			<div class="box">
@@ -157,13 +140,6 @@
 				<h3>CHRO</h3>
 				<p>Expert in recruitment, selection, personnel management, public relations, strategic alliances, tax, wholesale trade and international logistics.</p>
 			</div>
-
-			<!----<div class="box">
-				<img src="img/serv3.png">
-				<h3>Video Editing</h3>
-				<p>Lorem Ipsum Is Simply Dummy Text Of The Printing Andtypesetting Industry. Lorem Ipsum Has Been The Website Industry's Standard Dummy .</p>
-			</div>---->
-
 		</div>
 	</section>
 
@@ -243,46 +219,6 @@
                                   
                             </ul>
 			</div>
-
-			<!---<div class="row">
-				<img src="img/portfolio4.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio5.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>
-
-			<div class="row">
-				<img src="img/portfolio6.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Development</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Mobile app landing design & Services</h3>
-			</div>---->
-
 		</div>
 	</section>
        <section class="pricing" id="pricing">
@@ -370,15 +306,6 @@
 
 	<script src="https://unpkg.com/scrollreveal"></script>
 
-	<!---custom js link--->
-	<!--<script type="text/javascript" src="js/script.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function(){
-		  let formulario = document.getElementById('formul');
-		  formulario.addEventListener('submit', function() {
-			formulario.reset();
-		  });
-		});
-	  </script>---->
+	
 </body>
 </html>
